@@ -1,0 +1,19 @@
+{
+  "exclude": ["node_modules", ".vscode"],
+	"compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "src",
+		"paths": {
+			"@components/*": ["components/*"],
+			"@pages/*": ["pages/*"],
+			"@store/*": ["store/*"],
+			"@utils/*": ["utils/*"],
+			"@data/*": ["data/*"]
+		}
+	}
+}
